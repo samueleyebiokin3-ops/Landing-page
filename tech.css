@@ -1,0 +1,864 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+background-color: rgb(5, 65, 121);
+width:96%;
+margin: auto;
+height: 100vh;
+
+}
+.backy{
+    height: 95vh;
+    width: 100%;   
+    padding-top:1rem ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(picture/main-frame.jpg);
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;;
+    width: 90%;
+    height: 13vh;
+    padding: 0.1rem;
+    margin: auto;
+    border-radius: 50px;
+    border: solid green;
+    background-color: rgb(17, 17, 20);
+    /* backdrop-filter: blur(8px); */
+
+}
+.logo{
+    width: 10%;
+    height: 10vh;
+}
+.logo img{
+    width: 100%;
+    height: 10vh;
+}
+.features{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 40%;
+    height: 4vh;
+    
+}
+.features a{
+    color: white;
+    text-decoration: none;
+}
+.features .jowi{
+    background-color: rgb(21, 21, 34);
+    padding: 1rem;
+    border-radius: 25px;
+}
+.serve{
+    padding: 2rem;
+}
+.serve h1{
+    color: white;
+    font-size: 4rem;
+}
+.serve p{
+    
+    color: white;
+    width: 37%;
+}
+.but-it{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 10vh;
+
+}
+.BS-start{
+    padding: 0.7rem;
+    text-align: center;
+    height: 8vh;
+    width: 14%;
+    border: solid rgb(172, 166, 166);
+    border-radius: 15px;
+}
+.BS-start a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.ref {
+    padding: 0.7rem;
+    text-align: center;
+    height: 8vh;
+    width: 14%;
+    border: solid rgb(182, 245, 182);
+    border-radius: 15px;
+}
+.ref a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+.hero-section{
+    background-color: rgb(230, 228, 228); 
+    height: auto;
+    width: 96%;
+    margin: auto;
+}
+.hero1{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+.hero1 p{
+    width: 70%;
+    margin: auto;
+}
+.hero2{
+    margin-top: 1rem;
+}
+.shape1{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    height: 60vh;
+    padding: 0.7rem;
+
+}
+
+
+.plot1{
+   background-color: white;
+    width: 50%;
+    height: 55vh;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.plot2{
+    background-color: white;
+    width: 50%;
+    height: 55vh;
+    padding: 1rem;
+    border-radius: 15px;
+
+}
+.pict-ng img{
+    height: 20vh;
+    width: 96%;
+    border-radius: 7px;
+    
+}
+
+.pict-ng{
+    width: 30%;
+    height: 25vh;
+    margin: auto;
+    
+
+}
+.shape2{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    height: auto;
+    padding: 0.7rem;
+
+}
+
+
+.plot3{
+    background-color: white;
+    width: 50%;
+    height: 60vh;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.plot4{
+    background-color: white;
+    width: 50%;
+    height: 60vh;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.crew img{
+    height: 30vh;
+    width: 96%;
+    border-radius: 7px;
+}
+
+.crew{
+    width: 30%;
+    height: 30vh;
+    margin: auto;
+
+}
+.hero-section2{
+    background-color: rgb(190, 226, 243);
+    display: flex;
+    gap: 1rem;
+    width: 96%;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.sect1{
+
+    height: 52vh;
+    width: 60%;
+    padding: 2rem;
+}
+.sect2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    
+}
+.Action1{
+    padding: 1rem;
+}
+.solo{
+    background-color: white;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 15px;
+
+}
+.sect1 h2{
+    font-size: 3rem;
+}
+.sect1 p{
+    font-size: 1rem;
+}
+.alpha img{
+    height: 30vh;
+    width: 100%;
+    border-radius: 7px; 
+}
+
+.alpha{
+    width: 65%;
+    height: 30vh;
+}
+.free{
+    background-color: white;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.agent img{
+    height: 30vh;
+    width: 96%;
+    border-radius: 7px;
+}
+
+.agent{
+    width: 65%;
+    height: 30vh;
+
+
+}
+
+.sect3{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin: auto;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+.agent-v{
+    background-color:white ;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.start{
+    background-color: white;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.build{
+    width: 96%;
+    height: 60vh;
+    margin: auto;
+    background-color:#014751;
+}
+ .j-s{
+    width: 60%;
+    height: 50vh;
+    margin: auto;
+    padding-top: 3rem;
+    text-align: center;
+    
+} 
+
+.j-s h4 {
+    font-size: 3rem;
+    color: white;
+    width: 90%;
+    margin: auto;
+    
+
+}
+.j-s p{
+    color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 1.3rem;
+}
+.href-a{
+    padding: 1rem;
+    width: 40%;
+    margin: auto;
+    border: solid 1px grey;
+    border-radius: 15px;
+    margin-top: 1.5rem;
+}
+.href-a a{
+    text-decoration: none;
+    color: white;
+}
+.smack-down{
+    width: 96%;
+    height: 45vh;
+    margin: auto;
+    background-color: #1A202C;
+}
+                                 
+
+.down{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.proC h1, .Get h1{
+    color: #10B981;
+}
+.FP-D{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+.FP-D a{
+    text-decoration: none;
+    color: #A0AEC0;
+}
+
+.JS-C{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+.JS-C a{
+    text-decoration: none;
+    color: #A0AEC0;
+
+}
+.CH{
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+.CH a{
+    text-decoration: none;
+    color: #A0AEC0;
+
+}
+.cop{
+    margin-top: 5rem;
+    padding-left:4rem;
+     color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 10vh;
+    padding-top: 2rem;
+    background-color: #1A202C;
+    margin: auto;
+    margin-top: 1rem;
+}
+#facebook{
+    color: #3b5998;
+    font-size: 1.7rem;
+}
+#instagram{
+    color: #e1306c;
+    font-size: 1.5rem;
+}
+#whatsapp-icon{
+    color: #2aa43a;
+    font-size: 1.5rem;
+}
+
+@media(max-width: 1200px){
+
+.hamburger {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+/* The three lines */
+.hamburger span {
+    display: block;
+    width: 27px;
+    height: 3px;
+    margin: 5px 0;
+    background: white;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.nav-bar {
+        position: relative;
+}
+
+.hamburger {
+        display: block;
+        margin-left: auto;
+        z-index: 10;
+}
+
+.features {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 15px;
+        background: #111;
+        border: 1px solid #63a526;
+        border-radius: 15px;
+        z-index: 9;
+}
+.features.active {
+        display: flex;
+}
+
+.features a {
+        text-align: center;
+}
+.logo{
+    margin-left: 1rem;
+}
+.logo img{
+    height: 9vh;
+}
+.serve p{
+    width: 50%;
+}
+.ref{
+    width: 30%;
+}
+.hero1 h1{
+    font-size: 1.5rem;
+}
+.hero1 p{
+    width: 90%;
+}
+.pict-ng img{
+    height: 30vh;
+    width: 96%;
+    border-radius: 7px;
+    
+}
+
+.pict-ng{
+    width: 60%;
+    height: 30vh;
+    margin: auto;
+    
+
+}
+.crew img{
+    height: 30vh;
+    width: 96%;
+    border-radius: 7px;
+}
+
+.crew{
+    width: 60%;
+    height: 30vh;
+    margin: auto;
+
+}
+.plot1 h1{
+    font-size: 1.5rem;
+}
+.plot2 h1{
+    font-size: 1.5rem;
+}
+.plot3 h1{
+    font-size: 1.5rem;
+}
+.plot4 h1{
+    font-size: 1.5rem;
+}
+.sect1 h2{
+    font-size: 1.5rem;
+}
+.solo h1{
+    font-size: 1.5rem;
+}
+.free h1{
+    font-size: 1.5rem;
+}
+.agent-v h1{
+    font-size: 1.5rem;
+}
+.start h1{
+    font-size: 1.5rem;
+}
+.j-s{
+    width: 80%;
+    height: auto;
+}
+
+
+
+}
+
+
+
+
+
+
+@media(max-width: 900px){
+.serve h1{
+    font-size: 2.5rem;
+}
+.serve p{
+    width: 70%;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+}
+.hero-section{
+    height: auto;
+}
+.hero2{
+    height: auto;
+}
+.shape1{
+    height: auto;
+}
+.shape2{
+    height: auto;
+}
+.plot1{
+    height: auto;
+}
+.plot2{
+    height: auto;
+}
+.plot3{
+    height: auto;
+}
+.plot4{
+    height: auto;
+}
+.hero1{
+    width: 90%;
+}
+.plot1 h1{
+    font-size: 1.15rem;
+}
+.plot2 h1{
+    font-size: 1.2rem;
+}
+.plot3 h1{
+    font-size: 1.2rem;
+}
+.plot4 h1{
+    font-size: 1.2rem;
+}
+.pict-ng img{
+    height: 30vh;
+    width: 96%;
+    border-radius: 7px;
+    
+}
+
+.pict-ng{
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    
+
+}
+.crew img{
+    height: 30vh;
+    width: 96%;
+    border-radius: 7px;
+}
+
+.crew{
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+
+}
+.hero-section2 {
+    flex-direction: column;
+}
+.sect1{
+    padding: 0.3rem;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.sect1 h2{
+    font-size: 3rem;
+}
+.sect1 p{
+    font-size: 1rem;
+}
+.solo{
+    width: 50%;
+}
+.free{
+    width: 50%;
+}
+.agent-v{
+    width: 50%;
+}
+.start{
+    width: 50%;
+}
+.build{
+    height: auto;
+}
+.j-s{
+    width: 90%;
+    height: auto;
+}
+.j-s h4{
+    font-size: 1.5rem;
+}
+.href-a a{
+    font-size: 0.8rem;
+}
+.smack-down{
+    height: auto;
+}
+.down{
+    width: 80%;
+    height: auto;
+    padding-top: 4rem;
+}
+.proC h1, .Get h1{
+    font-size: 1.2rem;
+
+}
+
+
+}
+@media(max-width: 600px){
+.serve h1{
+    font-size: 1.5rem;
+}
+.serve p{
+    font-size: 1.1rem;
+}
+.but-it{
+    width: 80%;
+    justify-content: space-between;
+}
+.BS-start{
+    width: 50%;
+}
+.ref{
+    width: 60%;
+}
+
+.shape1{
+    flex-direction: column;
+    
+}
+.shape2{
+    flex-direction: column;
+}
+.plot1{
+    margin: auto;
+    width: 70%;
+
+}
+.plot2{
+    margin: auto;
+    width: 70%;
+}
+.plot3{
+    margin: auto;
+    width: 70%;
+}
+.plot4{
+    margin: auto;
+    width: 70%;
+}
+.plot1 h1{
+    font-size: 1.6rem;
+}
+.plot2 h1{
+    font-size: 1.6rem;
+}
+.plot3 h1{
+    font-size: 1.6rem;
+}
+.plot4 h1{
+    font-size: 1.6rem;
+}
+.sect2{
+    flex-direction: column;
+}
+.sect3{
+    flex-direction: column;
+}
+.solo{
+    margin: auto;
+    width: 75%;
+}
+.free{
+    margin: auto;
+    width: 75%;
+}
+.agent-v{
+    margin: auto;
+    width: 75%;
+}
+.start{
+    margin: auto;
+    width: 75%;
+}
+.j-s{
+    width: 100%;
+}
+.j-s h4{
+    font-size: 1.1rem;
+}
+.j-s p{
+    width: 90%;
+    font-size: 0.9rem;
+}
+.href-a{
+
+    width: 90%;
+}
+.down{
+    flex-direction: column;
+    gap: 3rem;
+    width: 90%;
+    margin: auto;
+}
+
+}
+@media(max-width: 480px){
+
+.ref{
+    width: 100%;
+}
+.ref a{
+    font-size: 0.8rem;
+}
+}
+
+
+@media(max-width: 350px){
+.backy{
+    background-image: none;
+    background-color:#1A202C;
+}
+.serve h1{
+    font-size: 2rem;
+    color: #A0AEC0;
+}
+.serve p{
+    display: none;
+}
+.but-it{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #1A202C;
+}
+.ref{
+    width: auto;
+    border: solid #A0AEC0;
+}
+.ref a{
+     color: #A0AEC0;
+}
+.BS-start{
+    width: auto;
+    border: solid #A0AEC0;
+}
+.BS-start a{
+     color: #A0AEC0;
+}
+
+.plot1{
+    margin: auto;
+    width: 100%;
+    
+}
+.plot2{
+    margin: auto;
+    width: 100%;
+}
+.plot3{
+    margin: auto;
+    width: 100%;
+}
+.plot4{
+    margin: auto;
+    width: 100%;
+}
+
+.solo{
+    margin: auto;
+    width: 100%;
+}
+.free{
+    margin: auto;
+    width: 100%;
+}
+.agent-v{
+    margin: auto;
+    width: 100%;
+}
+.start{
+    margin: auto;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+}
