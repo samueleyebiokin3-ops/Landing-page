@@ -548,6 +548,15 @@ height: 100vh;
 
 
 @media(max-width: 900px){
+.BS-start{
+    width: 30%;
+    height: 10vh;
+
+}
+.ref{
+    width: 30%;
+    height: 10vh;
+}
 .serve h1{
     font-size: 2.5rem;
 }
@@ -569,31 +578,58 @@ height: 100vh;
     height: auto;
 }
 .plot1{
-    height: auto;
+    height: 78vh;
 }
 .plot2{
-    height: auto;
+    height: 78vh;
 }
 .plot3{
-    height: auto;
+    height: 78vh;
+    
 }
 .plot4{
-    height: auto;
+    height: 78vh;
 }
 .hero1{
     width: 90%;
 }
+
 .plot1 h1{
-    font-size: 1.15rem;
+    font-size: 1.1rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
 }
 .plot2 h1{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
 }
 .plot3 h1{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
 }
 .plot4 h1{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+
 }
 .pict-ng img{
     height: 30vh;
@@ -775,13 +811,144 @@ height: 100vh;
 
 }
 @media(max-width: 480px){
-
+.logo{
+    width: 30%;
+    height: 10vh;
+}
+.logo img{
+    width: 100%;
+    height: 10vh;
+}
 .ref{
     width: 100%;
 }
 .ref a{
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
+
+.plot1{
+    margin: auto;
+    width: 100%;
+
+}
+.plot2{
+    margin: auto;
+    width: 100%;
+}
+.plot3{
+    margin: auto;
+    width: 100%;
+}
+.plot4{
+    margin: auto;
+    width: 100%;
+}
+
+.plot1 h1{
+    font-size: 1.2rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+}
+.plot2 h1{
+    font-size: 1.2rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+}
+.plot3 h1{
+    font-size: 1.2rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+}
+.plot4 h1{
+    font-size: 1.2rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+
+}
+
+.solo{
+    margin: auto;
+    width: 100%;
+}
+.free{
+    margin: auto;
+    width: 100%;
+}
+.agent-v{
+    margin: auto;
+    width: 100%;
+}
+.start{
+    margin: auto;
+    width: 100%;
+}
+.solo h1{
+    font-size: 1.2rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+   
+}
+.free h1{
+    font-size: 1.2rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+}  
+
+.agent-v h1{
+    font-size: 1.2rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+}
+
+.start h1{
+    font-size: 1.2rem;
+    color: #A0AEC0;
+    padding:0.3rem;
+    width: 80%;
+    margin-top: 0.3rem;
+    border-radius: 10px;
+    background-color: #1A202C;
+}
+.alpha{
+    width: 80%;
+    height: 30vh;
+}
+.agent{
+    width: 80%;
+    height: 30vh;
+
+
+}
+
+
 }
 
 
